@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ajuda"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Média Aritmética"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingTop="8dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A média aritmética é calculada somando todos os valores e dividindo pela quantidade de valores. Exemplo: Valores: 5, 10, 15. Média Aritmética = (5 + 10 + 15) / 3 = 10."
+            android:textSize="16sp"
+            android:paddingBottom="16dp"/>
+        <Button
+            android:id="@+id/btnVideoAritmetica"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ver Vídeo (YouTube)"
+            android:layout_marginBottom="8dp"/>
+        <Button
+            android:id="@+id/btnTextoAritmetica"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ler Texto Complementar"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Média Ponderada"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingTop="8dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A média ponderada é calculada multiplicando cada valor pelo seu peso, somando esses produtos e dividindo pela soma dos pesos. Exemplo: Valores: 5, 10, 15. Pesos: 1, 2, 3. Média Ponderada = (5*1 + 10*2 + 15*3) / (1+2+3) = 70 / 6 ≈ 11.67."
+            android:textSize="16sp"
+            android:paddingBottom="16dp"/>
+        <Button
+            android:id="@+id/btnVideoPonderada"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ver Vídeo (YouTube)"
+            android:layout_marginBottom="8dp"/>
+        <Button
+            android:id="@+id/btnTextoPonderada"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ler Texto Complementar"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Média Harmônica"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingTop="8dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A média harmônica é calculada dividindo a quantidade de valores pela soma dos inversos dos valores. Exemplo: Valores: 5, 10, 15. Média Harmônica = 3 / (1/5 + 1/10 + 1/15) = 3 / (0.2 + 0.1 + 0.0667) = 3 / 0.3667 ≈ 8.18."
+            android:textSize="16sp"
+            android:paddingBottom="16dp"/>
+        <Button
+            android:id="@+id/btnVideoHarmonica"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ver Vídeo (YouTube)"
+            android:layout_marginBottom="8dp"/>
+        <Button
+            android:id="@+id/btnTextoHarmonica"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ler Texto Complementar"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/btnVoltar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Voltar"
+            android:layout_marginTop="16dp"/>
+    </LinearLayout>
+</ScrollView>

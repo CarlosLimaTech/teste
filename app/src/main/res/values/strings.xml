@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Calculadora de Médias</string>
+    <string name="btn_valores">Inserir Valores</string>
+    <string name="btn_ajuda">Ajuda</string>
+    <string name="btn_adicionar_valor">Adicionar Valor</string>
+    <string name="btn_proximo">Próximo</string>
+    <string name="btn_voltar">Voltar</string>
+    <string-array name="tipos_media">
+        <item>Média Aritmética</item>
+        <item>Média Ponderada</item>
+        <item>Média Harmônica</item>
+    </string-array>
+</resources>
